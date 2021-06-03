@@ -31,3 +31,5 @@ Assume that
 
     * A and B are integers within the range [0... 100000]
     * A <= B
+
+In your solution, focus on correctness. The performance of your solution will not be the focus of the assessment
