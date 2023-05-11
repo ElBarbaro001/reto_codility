@@ -95,3 +95,8 @@ For example, for:
         20      | 4     | 62500
         30      | 2     | 40000
         40      | 2     | 30000
+        
+select DISTINCT d.dept_id ,count(e.dept_id) coun,sum(e.salary)
+from department d 
+inner join employee e on e.dept_id = d.dept_id 
+GROUP  by e.dept_id 
